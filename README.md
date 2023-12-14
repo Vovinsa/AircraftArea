@@ -39,6 +39,65 @@ Here's how precision and recall relate to the task:
 
 Balancing precision and recall is often essential, as there is typically a trade-off between the two. Depending on the system's requirements and priorities, one may need to adjust the model or algorithm parameters to achieve the desired balance between minimizing false positives and false negatives.
 
+Below are the evaluation metrics for the aircraft stand monitoring system applied to different video files. The metrics include precision and recall values for each video, providing insights into the system's performance in identifying and notifying the presence of vehicles on the aircraft stand
+
+- **video_11.mp4**
+Precision: 1.0
+Recall: 1.0
+- **video_13.mp4**
+Precision: 0.4237
+Recall: 1.0
+- **video_16.mp4**
+Precision: 0.5333
+Recall: 1.0
+- **video_17.mp4**
+Precision: 0.1569
+Recall: 1.0
+- **video_8.mp4**
+Precision: 0.0
+Recall: 0.0
+- **video_15.mp4**
+Precision: 1.0
+Recall: 0.9
+- **video_14.mp4**
+Precision: 0.0615
+Recall: 1.0
+- **video_9.mp4**
+Precision: 0.0
+Recall: 0.0
+- **video_4.mp4**
+Precision: 0.5152
+Recall: 1.0
+- **video_19.mp4**
+Precision: 0.3709
+Recall: 0.9825
+- **video_18.mp4**
+Precision: 1.0
+Recall: 1.0
+- **video_5.mp4**
+Precision: 0.2378
+Recall: 1.0
+- **video_7.mp4**
+Precision: 1.0
+Recall: 0.7597
+- **video_6.mp4**
+Precision: 0.8906
+Recall: 0.9913
+- **video_2.mp4**
+Precision: 0.8571
+Recall: 0.75
+- **video_3.mp4**
+Precision: 0.1455
+Recall: 1.0
+- **video_1.mp4**
+Precision: 1.0
+Recall: 0.3333
+- **video_0.mp4**
+Precision: 0.0
+Recall: 0.0
+
+These metrics offer a detailed assessment of the system's ability to accurately identify the presence of vehicles on the stand. While the results indicate notable performance in certain cases, it's important to note that due to resource limitations, model improvements, such as employing a larger model, are currently unfeasible. Ongoing efforts will focus on optimizing within the existing resource constraints for enhanced precision and recall across all scenarios
+
 ---
 
 # Inference
