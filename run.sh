@@ -12,7 +12,7 @@ output_path=$3
 echo "Creating virtual environment..."
 python3 -m venv venv
 pip3 install -U pip
-source venv2/bin/activate
+source venv/bin/activate
 
 echo "Installing requirements..."
 pip3 install -r requirements.txt
